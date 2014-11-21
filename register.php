@@ -3,11 +3,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/bootstrap-form-helpers.min.css" rel="stylesheet" media="screen">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<link href="css/timsformstyle.css" rel="stylesheet" type="text/css">
-		<title> Member Registration Form</title>
+		<title> Los Graduados - Member Registration Form</title>
 	</head>
 
 	<body>
+		<?php include("header.php") ?>
+		<div class="container">
 		<h1 id="title"> Membership Registration Form </h1>
 		<form name="application" action="process.php" autocomplete="off" method="post" onsubmit="return validateAll()">
 
@@ -142,6 +145,7 @@
 
 </div>
 	</form>
+	</div>
 
 	<!-- Bootstrap core JavaScript
     ================================================== -->

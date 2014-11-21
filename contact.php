@@ -11,6 +11,7 @@
 	<?php $fname = basename(__FILE__); ?>
 	<?php include("header.php"); ?> 
 	<div class="container">
+	<h1>Contact us</h1>
 	<h2>Want to chat? Shoot us a message!</h2>
 	<div class="form">
 	<form name="contactform" method="post" action="contact_email.php">

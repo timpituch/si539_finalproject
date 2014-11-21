@@ -23,10 +23,10 @@
 			}
 				?>><a href="about.php"> ABOUT </a></li>
 			<li <?php 
-				if (basename($_SERVER["REQUEST_URI"]) == "event.php")
+				if (basename($_SERVER["REQUEST_URI"]) == "events.php")
 					{echo "class = \"active\"";
 			}
-				?>><a href="event.php"> EVENTS </a></li>
+				?>><a href="events.php"> EVENTS </a></li>
 			<li <?php 
 				if (basename($_SERVER["REQUEST_URI"]) == "register.php"){
 				echo "class = \"active\"";
