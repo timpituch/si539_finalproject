@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Tim Pituch - Contact</title>
+	<title>Los Graduados - Contact</title>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<meta name ="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<?php include("header.php"); ?> 
-	<?php include("nav.php"); ?>
 	<h2>Want to chat? Shoot me a message!</h2>
 	<div class="form">
 	<form name="contactform" method="post" action="send_form_email.php">
