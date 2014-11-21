@@ -5,7 +5,6 @@
 		 <div class="navbar-header">
 			<a href="index.php" class="navbar-brand"> Los Graduados </a>
 			<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse" value="menu_button">
-				<span class="bruh">	Menu Button </span>
 				<span class="icon-bar"> </span> 
 				<span class="icon-bar"> </span>
 				<span class="icon-bar"> </span>
