@@ -17,8 +17,8 @@
 		</div>
 	</div>
 	<div class="container">
-		<h1> Welcome! </h1>		
+		<h1> Welcome! </h1>	
+		<?php include("footer.php"); ?>	
 	</div>
-	<?php include("footer.php"); ?>
 </body>
 </html>
