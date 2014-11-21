@@ -8,6 +8,7 @@
 	<meta name ="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+	<?php $fname = basename(__FILE__); ?>
 	<?php include("header.php"); ?> 
 	<h2>Want to chat? Shoot us a message!</h2>
 	<div class="form">
