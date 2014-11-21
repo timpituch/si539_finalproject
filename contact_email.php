@@ -8,7 +8,7 @@ if(isset($_POST['email'])) {
  
     $email_to = "tpituch@umich.edu";
  
-    $email_subject = "Personal Page Contact Request";
+    $email_subject = "Los Graduados Contact Request";
  
      
  
@@ -144,7 +144,7 @@ mail($email_to, $email_subject, $email_message, $headers);
  
  
  
-Thank you for contacting me. I will be in touch with you very soon!
+Thank you for contacting us. We will be in touch with you very soon!
  
  
  
