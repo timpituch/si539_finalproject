@@ -5,6 +5,7 @@
 	<title>Los Graduados - Latino Graduate Student Organization at the University of Michigan</title>
 </head>
 <body>
+	<?php $fname = basename(__FILE__); ?> 
 	<?php include("header.php"); ?>
 	
 
