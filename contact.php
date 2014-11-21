@@ -17,36 +17,36 @@
 				<p>Shoot us a message and we'll get back to you as soon as we can!</p>
 			</div>
 		</div>
-	<form role="form" action="contact_email.php">
-		<div class="row">
-			<div class="col-sm-6 col-md-6">
-		  		<div class="form-group">
-		    		<label for="InputName1">Your Name</label>
-		    		<input type="text" class="form-control" id="InputName1" placeholder="Enter name">
-		  		</div>
-		  	</div>
-			<div class="col-sm-6 col-md-6">
-		  		<div class="form-group">
-		    		<label for="InputEmail1">E-mail</label>
-		    		<input type="email" class="form-control" id="InputEmail1" placeholder="Enter email">
-		  		</div>
-		  	</div>
-  		</div>
-  		<div class="row">
-  			<div class="col-sm-12 col-md-12">
-		  		<div class="form-group">
-		    		<label for="InputMessage">Message</label>
-		    		<textarea class="form-control" rows="3" id="InputMessage" placeholder="Add your message here."></textarea>
-		  		</div>
-		  		<div class="checkbox">
-		    		<label>
-		      		<input type="checkbox"> Sign up for our mailing list.
-		    		</label>
-		  		</div>
-		  		<button type="submit" class="btn btn-default">Submit</button>
+		<form name="contactform" role="form" action="contact_email.php" method="post">
+			<div class="row">
+				<div class="col-sm-6 col-md-6">
+			  		<div class="form-group">
+			    		<label for="InputName1">Your Name</label>
+			    		<input type="text" name="InputName" class="form-control" id="InputName1" placeholder="Enter name">
+			  		</div>
+			  	</div>
+				<div class="col-sm-6 col-md-6">
+			  		<div class="form-group">
+			    		<label for="InputEmail1">E-mail</label>
+			    		<input type="email" name="InputEmail" class="form-control" id="InputEmail1" placeholder="Enter email">
+			  		</div>
+			  	</div>
 	  		</div>
-	  	</div>
-	</form>
+	  		<div class="row">
+	  			<div class="col-sm-12 col-md-12">
+			  		<div class="form-group">
+			    		<label for="InputMessage">Message</label>
+			    		<textarea class="form-control" name="InputMessage" rows="3" id="InputMessage" placeholder="Add your message here."></textarea>
+			  		</div>
+			  		<div class="checkbox">
+			    		<label>
+			      		<input type="checkbox"> Sign up for our mailing list.
+			    		</label>
+			  		</div>
+			  		<button type="submit" class="btn btn-default">Submit</button>
+		  		</div>
+		  	</div>
+		</form>
 	</div>
 
 <?php include("footer.php"); ?>
