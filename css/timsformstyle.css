@@ -1,0 +1,102 @@
+h2 {
+	font-family: Times;
+	color: #006BB2;
+}
+
+body{
+	background-color: #FFFFFF;
+	font-family: Times;
+}
+
+form{
+	border: solid #006BB2 10px;
+	padding: 1%;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color:#B4CDCD;
+}
+
+input, select{
+	margin-top: 2%;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+input:focus, select:focus{
+	outline-color: #006BB2;
+	border-color: white;
+	box-shadow: 2px 2px 15px #006BB2;	
+}
+
+span{
+	margin-left: 2%;
+	color: red;
+}
+
+#education, #work{
+	margin-top: 2%;
+	padding: 1%;
+}
+
+label{
+	padding-top: 2%;
+}
+
+.panel-title{
+	text-align: center;
+	font-weight: bold;
+}
+
+.panel-heading{
+	background-color: #006BB2 !important;
+	color: white;
+}
+
+#title{
+	text-align: center;
+}
+
+input, select{
+	clear: both;
+	display: block;
+}
+
+input[type="checkbox"]{
+	display: inline;
+}
+
+button{
+	background-color:#006BB2;
+	color:white;
+	padding:0.5%;
+	}
+
+::-webkit-input-placeholder {
+   font-family: Times;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-family: Times;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family: Times; 
+}
+
+:-ms-input-placeholder {  
+   font-family: Times;  
+}
+
+@media only screen and (max-width: 750px) {
+	form{
+		width: 100%;
+		padding: 0%;
+		font-size:12px;
+	}	
+
+	#country, #address{
+		width: 70%;
+	}
+}
