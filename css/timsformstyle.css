@@ -1,11 +1,9 @@
 h2 {
-	font-family: Times;
 	color: #006BB2;
 }
 
 body{
 	background-color: #FFFFFF;
-	font-family: Times;
 }
 
 form{
@@ -72,22 +70,6 @@ button{
 	color:white;
 	padding:0.5%;
 	}
-
-::-webkit-input-placeholder {
-   font-family: Times;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   font-family: Times;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   font-family: Times; 
-}
-
-:-ms-input-placeholder {  
-   font-family: Times;  
-}
 
 @media only screen and (max-width: 750px) {
 	form{
