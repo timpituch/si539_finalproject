@@ -9,9 +9,10 @@
 	</head>
 
 	<body>
+		<?php $fname = basename(__FILE__); ?> 
 		<?php include("header.php") ?>
 		<div class="container">
-		<h1 id="title"> Membership Registration Form </h1>
+		<h1> Become a member </h1>
 		<form name="application" action="process.php" autocomplete="off" method="post" onsubmit="return validateAll()">
 
 <!-- Bootstrap Accordion -->
@@ -117,7 +118,7 @@
 
              Are you interested in an officer position?<br/>            
               <button type="button" onclick="openMe()">Yes</button>
-            <button type="button"  onclick="closeMe()">No</button>
+            <button type="button"  onclick="closeMe()">No</button><br>
      
  
             <div id = "officerPosition" class ="gone">
@@ -151,9 +152,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 	
-    <script src="./membershipform_files/jquery.min.js"></script>
-    <script src="./membershipform_files/bootstrap.min.js"></script>
-    <script src="./membershipform_files/bootstrap-formhelpers.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-formhelpers.min.js"></script>
 	
 	<script>
 function match(input) {
@@ -212,6 +213,6 @@ function validateNumber(numba){
 		}
 	}
 </script>
-	
+	<?php include("footer.php"); ?>
 </body>
 </html>
