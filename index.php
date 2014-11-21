@@ -10,9 +10,15 @@
 <body>
 	<?php $fname = basename(__FILE__); ?> 
 	<?php include("header.php"); ?>
-	
-	<h1> Welcome! </h1>
-
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Subtitle</h1>
+			<p>Tagline</p>
+		</div>
+	</div>
+	<div class="container">
+		<h1> Welcome! </h1>		
+	</div>
 	<?php include("footer.php"); ?>
 </body>
 </html>
