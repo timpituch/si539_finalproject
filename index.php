@@ -11,12 +11,8 @@
 	<?php $fname = basename(__FILE__); ?> 
 	<?php include("header.php"); ?>
 	
-
-
-	<?php include("footer.php"); ?>
-
-	
 	<h1> Welcome! </h1>
 
+	<?php include("footer.php"); ?>
 </body>
 </html>
