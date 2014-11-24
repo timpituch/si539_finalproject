@@ -88,8 +88,8 @@
 			
 			<legend>Relevant Extracurricular Activities:</legend>
 		<div id="work">
-				<label>Organization Name: <input type="text" name="name" placeholder="Entertainment Media Club"></label><br>
-				<label>Position: <input type="text" name="title" placeholder="President"></label><br>
+				<label>Organization Name: <input type="text" name="name" placeholder="optiMize"></label><br>
+				<label>Position: <input type="text" name="title" placeholder="Team Member"></label><br>
 				<label>Join Date: <input type="date" name="join_date"></label><br>
 				<label>End Date: <input type="date" name="end_date"></label><br>
 

@@ -16,6 +16,14 @@ body {
   background-color: #006BB2;
 }
 
+.footer .container p {
+  margin: auto 0px;
+}
+
+.jumbotron {
+  background-image: url('jumbotron_image.jpg');
+}
+
 h1, h2 {
   color: #006BB2;
 }
