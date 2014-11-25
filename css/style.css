@@ -21,7 +21,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url('jumbotron_image.jpg');
+  background-image: url("homeimage.jpg") no-repeat center center;
 }
 
 h1, h2 {

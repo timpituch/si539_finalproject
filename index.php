@@ -12,8 +12,8 @@
 	<?php include("header.php"); ?>
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Subtitle</h1>
-			<p>Tagline</p>
+			<h1>Los Graduados</h1>
+			<p>A community of Latino graduate students at the University of Michigan.</p>
 		</div>
 	</div>
 	<div class="container">
