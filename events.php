@@ -10,6 +10,14 @@
 <body>
 	<?php $fname = basename(__FILE__); ?> 
 	<?php include("header.php"); ?>
+	
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Los Graduados</h1>
+			<p>A community of Latino graduate students at the University of Michigan.</p>
+		</div>
+	</div>
+	
 	<div class="container">
 		<h1> Events </h1>	
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae vulputate mauris. Vivamus enim risus, eleifend at cursus non, consectetur vitae enim. Fusce condimentum interdum quam, quis consectetur dui mattis ut. Sed venenatis interdum condimentum. Nunc facilisis pellentesque mi, ac imperdiet ante interdum at. Curabitur quis ligula ex. Vivamus at tellus ut magna viverra pharetra ac non ex. Vestibulum feugiat nulla odio, in scelerisque nisl consequat sodales. Fusce rhoncus dictum lectus, id rhoncus quam commodo sit amet. Vestibulum sodales eros vitae maximus rutrum. Fusce nec iaculis magna, id semper purus.</p>
