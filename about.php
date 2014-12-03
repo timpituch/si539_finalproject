@@ -51,6 +51,7 @@
 	</div>
 	
 	<!-- Section #1 -->
+
 	<section id="intro" data-speed="6" data-type="background">
 		<div class="container">
 				<div class="span4 well">
@@ -99,7 +100,9 @@
 	    	</div>
 	    </div>
 	</section>
-	
+
+
 	<?php include("footer.php"); ?>
+
 </body>
 </html>
