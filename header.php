@@ -5,7 +5,6 @@
 		 <div class="navbar-header">
 			<a href="index.php" class="navbar-brand"> Los Graduados </a>
 			<button class="navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse" value="menu_button">
-				<span class="bruh">	Menu Button </span>
 				<span class="icon-bar"> </span> 
 				<span class="icon-bar"> </span>
 				<span class="icon-bar"> </span>
@@ -16,25 +15,25 @@
 			<li <?php 
 				if (basename($_SERVER["REQUEST_URI"]) == "index.php"){
 				echo "class = \"active\"";
-			} ?>><a href="index.php"> HOME </a></li>
+			} ?>><a href="index.php"> Home </a></li>
 			<li <?php 
 				if (basename($_SERVER["REQUEST_URI"]) == "about.php")
 					{echo "class = \"active\"";
 			}
-				?>><a href="about.php"> ABOUT </a></li>
+				?>><a href="about.php"> About </a></li>
 			<li <?php 
-				if (basename($_SERVER["REQUEST_URI"]) == "event.php")
+				if (basename($_SERVER["REQUEST_URI"]) == "events.php")
 					{echo "class = \"active\"";
 			}
-				?>><a href="event.php"> EVENTS </a></li>
+				?>><a href="events.php"> Events </a></li>
 			<li <?php 
 				if (basename($_SERVER["REQUEST_URI"]) == "register.php"){
 				echo "class = \"active\"";
-			} ?>><a href="register.php"> REGISTER </a></li>
+			} ?>><a href="register.php"> Register </a></li>
 			<li <?php 
 				if (basename($_SERVER["REQUEST_URI"]) == "contact.php"){
 				echo "class = \"active\"";
-			} ?>><a href="contact.php"> CONTACT </a></li>
+			} ?>><a href="contact.php"> Contact </a></li>
 		  </ul>
 		 </div>	
 </div>		

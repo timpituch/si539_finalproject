@@ -1,0 +1,71 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  color: white;
+  background-color: #006BB2;
+}
+
+.footer .container p {
+  margin: auto 0px;
+}
+
+.jumbotron {
+  background-image: url("homeimage.jpg") no-repeat center center;
+}
+
+h1, h2 {
+  color: #006BB2;
+}
+/*navbar*/
+.navbar-default {
+  background-color: #006BB2;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: yellow;
+}
+/* link */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: yellow;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #006BB2;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+
+}
+
+/*jumbotron*/
+
+.jumbotron .container h1 {
+    color: #006BB2;
+}
+
+.jumbotron .container p {
+    color: #006BB2;
+}
+

@@ -11,7 +11,15 @@
 	<?php $fname = basename(__FILE__); ?> 
 	<?php include("header.php"); ?>
 
-<div class="container">
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Los Graduados</h1>
+			<p>A community of Latino graduate students at the University of Michigan.</p>
+		</div>
+	</div>
+	
+	<div class="container">
 	<div class="row">
 		<div class="col-md-12">
 			<h1> Welcome/Bienvenidos/Bem-vindos! </h1>
@@ -23,8 +31,8 @@
 			</p>
 		</div>
 	</div>
-</div>
-
+	</div>
+ <!--FOOTER -->
 	<?php include("footer.php"); ?>
 </body>
 </html>

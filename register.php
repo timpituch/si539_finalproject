@@ -3,12 +3,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/bootstrap-form-helpers.min.css" rel="stylesheet" media="screen">
+		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<link href="css/timsformstyle.css" rel="stylesheet" type="text/css">
-		<title> Member Registration Form</title>
+		<title> Los Graduados - Member Registration Form</title>
 	</head>
 
 	<body>
-		<h1 id="title"> Membership Registration Form </h1>
+		<?php $fname = basename(__FILE__); ?> 
+		<?php include("header.php") ?>
+		<div class="container">
+		<h1> Become a member </h1>
 		<form name="application" action="process.php" autocomplete="off" method="post" onsubmit="return validateAll()">
 
 <!-- Bootstrap Accordion -->
@@ -84,8 +88,8 @@
 			
 			<legend>Relevant Extracurricular Activities:</legend>
 		<div id="work">
-				<label>Organization Name: <input type="text" name="name" placeholder="Entertainment Media Club"></label><br>
-				<label>Position: <input type="text" name="title" placeholder="President"></label><br>
+				<label>Organization Name: <input type="text" name="name" placeholder="optiMize"></label><br>
+				<label>Position: <input type="text" name="title" placeholder="Team Member"></label><br>
 				<label>Join Date: <input type="date" name="join_date"></label><br>
 				<label>End Date: <input type="date" name="end_date"></label><br>
 
@@ -114,7 +118,7 @@
 
              Are you interested in an officer position?<br/>            
               <button type="button" onclick="openMe()">Yes</button>
-            <button type="button"  onclick="closeMe()">No</button>
+            <button type="button"  onclick="closeMe()">No</button><br>
      
  
             <div id = "officerPosition" class ="gone">
@@ -142,14 +146,15 @@
 
 </div>
 	</form>
+	</div>
 
 	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 	
-    <script src="./membershipform_files/jquery.min.js"></script>
-    <script src="./membershipform_files/bootstrap.min.js"></script>
-    <script src="./membershipform_files/bootstrap-formhelpers.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-formhelpers.min.js"></script>
 	
 	<script>
 function match(input) {
@@ -208,6 +213,6 @@ function validateNumber(numba){
 		}
 	}
 </script>
-	
+	<?php include("footer.php"); ?>
 </body>
 </html>
