@@ -9,7 +9,35 @@
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 	<script src="js/init.js"></script>
 	<script src="js/bootstrap.min.js"> </script>
-
+	<style>
+	#intro { 
+    background: url(img/navy.jpg) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    padding: 100px 0;
+}
+#home { 
+    background: url(img/home.jpg) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
+}
+#about { 
+    background: url(img/about.png) 50% 0 fixed; 
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    color: #fff;
+}
+</style>
 </head>
 <body>
 	<?php $fname = basename(__FILE__); ?> 
