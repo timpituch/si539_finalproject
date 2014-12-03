@@ -6,17 +6,7 @@
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<meta name ="viewport" content="width=device-width, initial-scale=1">
-	<style>
-	#portfolio { width:100%; margin:20px 0px; }
-.tile { float:left; height:150px; width:20%; border:1px #fff solid; }
-.tile:hover { opacity: 0.5; }
-.intern { background:#FCDC3B;}
-.funding { background: #CC3232;}
-.org { background: #FF7722; }
-p{ text-align:center; padding:10px; text-decoration: none; font-family: Arial; text-transform:uppercase; font-size: 12px; color: #333; display:block; float:left;}
-p:hover { cursor:pointer; }
-.filter_nav{ text-align:center;}
-</style>
+
 </head>
 <body>
 	<?php $fname = basename(__FILE__); ?> 
@@ -36,46 +26,8 @@ p:hover { cursor:pointer; }
 	</div>
 	
 	
-<div class="filter_nav">
-<p href="" data-rel="all">All</p>
-<p data-rel="intern"> Internships </p>
-<p data-rel="funding">Funding</p>
-<p data-rel="org">  Other Organizations </p>
-</div>
-<div class="container">
-<div style="clear:both;"></div>
 
-<div id="portfolio">
-  <a href="www.hacu.com"><div class="tile intern all">
-  <p> Hispanic Association for Colleges & Universities </p>
-  </div></a>
-  
-  <a href="www.hsf.net"><div class="tile funding all">
-  <p> Hispanic Scholarship Fund </p>
-  </div></a>
-  
-  <a href="http://www.chci.org/scholarships/"><div class="tile org all">
-   <p> Hispanic Congressional Caucus </p>
-  </div></a>
-  
-  <a href="http://latinojustice.org/about/staff/internships/" alt="latinojustice"> <div class="tile intern all">
-   <p> Latino Justice </p> 
-  </div> </a>
-  
-  <a href="http://www.umich.edu/~lavoz/" alt="la_voz"><div class="tile org all">
-    <p> La Voz </p> 
-  </div> </a>
-  
-  <a href="http://www.oami.umich.edu/programs/lacelebracionlatina.html" alt="latina_program"><div class="tile funding all">
-    <p> La Celebracion Latina </p>
-  </div></a>
-  
-  <a href="http://latino.si.edu/education/SLC_internship.htm" alt="smithsonian"><div class="tile intern all">
-    <p> Smithsonian Latino Center </p>
-  </div></a>
-
-</div>
-</div>
+	
 	<?php include("footer.php"); ?>
 	
 <script>
