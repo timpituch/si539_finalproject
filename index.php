@@ -12,7 +12,7 @@
 	<?php include("header.php"); ?>
 
 
-	<div class="jumbotron">
+	<div class="jumbotron" style="background-image:url('img/blur.jpg'); background-position: center; background-size:cover;">
 		<div class="container">
 			<h1>Los Graduados</h1>
 			<p>A community of Latino graduate students at the University of Michigan.</p>
