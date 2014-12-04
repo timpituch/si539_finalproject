@@ -1,27 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title> Los Graduados - Events </title>
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<meta name ="viewport" content="width=device-width, initial-scale=1">
-
-</head>
-<body>
-	<?php $fname = basename(__FILE__); ?> 
-	<?php include("header.php"); ?>
-
-<div class="container" style="text-align:center">
-<a class="btn btn-success" href="#grad"> Graduate Student Organizations </a>
-<a class="btn btn-success" href="#undergrad"> Undergraduate Student Organizations </a>
-<a class="btn btn-success" href="#events"> Events </a>
-<a class="btn btn-success" href="#admin"> Administrative & Academic Departments </a>
-</div>
+<html>
 	
-			<div class = "container link-square-container">
+<!-- The classes used for the links in resources are as follows:
 
-			<div class="row link-square-header" id="grad">
+.link-square-container{
+
+}
+
+.link-square-header{
+
+}
+
+.link-square-title{
+
+}
+
+.link-square{
+
+}
+
+-->
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+		<title>Resources</title>
+	</head>
+
+	<body>
+		<div class = "container link-square-container">
+
+			<div class="row link-square-header">
 				<h2> Graduate Student Organizations </h2>
 			</div>
 
@@ -91,7 +102,7 @@
 				</div>
 			</div>
 
-			<div class="link-square-header row" id="undergrad">
+			<div class="link-square-header row">
 				<h2> Undergraduate Student Organizations </h2>
 			</div>
 
@@ -141,7 +152,7 @@
 				</div>
 			</div>
 
-			<div class="row link-square-header" id="events">
+			<div class="row link-square-header">
 				<h2> Major Events </h2>
 			</div>
 
@@ -165,7 +176,7 @@
 				
 			</div>
 
-			<div class="link-square-header row" id="admin">
+			<div class="link-square-header row">
 				<h2>  Administrative and Academic Departments </h2>
 			</div>
 			
@@ -198,26 +209,4 @@
 			</div>
 		</div>
 	</body>
-	
-	
-
-	
-	<?php include("footer.php"); ?>
-	
-<script>
-$(function() {
-		var selectedClass = "";
-		$("p").click(function(){
-		selectedClass = $(this).attr("data-rel");
-    $("#portfolio").fadeTo(100, 0.1);
-		$("#portfolio div").not("."+selectedClass).fadeOut();
-    setTimeout(function() {
-      $("."+selectedClass).fadeIn();
-      $("#portfolio").fadeTo(500, 1);
-    }, 500);
-		
-	});
-});
-</script>
-</body>
 </html>

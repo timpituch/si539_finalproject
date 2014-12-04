@@ -25,7 +25,7 @@
 				if (basename($_SERVER["REQUEST_URI"]) == "events.php")
 					{echo "class = \"active\"";
 			}
-				?>><a href="events.php"> Events </a></li>
+				?>><a href="resources.php"> Resources </a></li>
 			<li <?php 
 				if (basename($_SERVER["REQUEST_URI"]) == "register.php"){
 				echo "class = \"active\"";
