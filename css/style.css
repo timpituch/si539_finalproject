@@ -21,7 +21,8 @@ body {
 }
 
 .jumbotron {
-  background-image: url("homeimage.jpg") no-repeat center center;
+  background: url("http://tpituch.si.umich.edu/public_html/si539_finalproject/jumbotron_image.jpg");
+  height: 300px;
 }
 
 h1, h2 {
