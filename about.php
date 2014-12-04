@@ -51,8 +51,8 @@
 	<section id="intro" data-speed="6" data-type="background">
 		<div class="container">
 				<div class="span4 well">
-		          <h2>Who are we? </h2>
-		          <p> Los Graduados is a new pan-Latino cultural group for graduate students at the University of Michigan.  
+				<h1>About Us</h1>
+		        <p> Los Graduados is a new pan-Latino cultural group for graduate students at the University of Michigan.  
 				The organization provides the opportunity for graduate students to connect with their peers in other graduate programs over food, drinks, conversation and action.  
 				Board members and special guests facilitate discussion on topics important to the Latino community and encourage personal and professional development through peer to peer education.
 				</p>
