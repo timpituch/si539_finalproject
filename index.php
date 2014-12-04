@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title> Los Graduados - Latino Graduate Student Organization at the University of Michigan </title>
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'><link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<meta name ="viewport" content="width=device-width, initial-scale=1">
+	
 </head>
 <body>
 	<?php $fname = basename(__FILE__); ?> 
@@ -22,16 +23,36 @@
 	<div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<h1> Welcome/Bienvenidos/Bem-vindos! </h1>
-			<p>
-			Los Graduados is a new pan-Latino cultural group for graduate students at the University of Michigan.  The organization provides the opportunity for graduate students to connect with their peers in other graduate programs over food, drinks, conversation and action.  Board members and special guests facilitate discussion on topics important to the Latino community and encourage personal and professional development through peer to peer education.
+			<div class="page-header" style="text-align:center">
+				<h1> Welcome/Bienvenidos/Bem-vindos! </h1>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-6" id="home-photo">
+					<img src="img/latinos.jpg" alt="latinos" class="img-circle" width="100%">
+				</div>
+				<div class="col-md-6">
+					<p class = "home">
+					<strong>Los Graduados is a new pan-Latino cultural group for graduate students at the University of Michigan.  </strong>
+					</p>
+					<p class = "home">
+					The organization provides the opportunity for graduate students to connect with their peers in other graduate programs over food, 
+					drinks, conversation and action.  Board members and special guests facilitate discussion on topics important to the Latino community 
+					and encourage personal and professional development through peer to peer education.
+					</p>
 
-			The first official meeting of Los Graduados will be January XX, 2014 at X:XXpm at XXX.  Please save the date to your calendar!  If you would like to share this event with your graduate community, please feel free to do so. 
-			Click here to join our mailing list.
-			</p>
+					<p class = "home">
+					The first official meeting of Los Graduados will be in January.  Please check our website for an update soon or <a href="contact.php">join
+					 our mailing list</a>.
+					If you would like to share this event with your graduate community, please feel free to do so! 
+					</p>
+				</div>
+			</div>
+
 		</div>
 	</div>
-	</div>
+</div>
+	<hr class="featurette-divider">
  <!--FOOTER -->
 	<?php include("footer.php"); ?>
 </body>

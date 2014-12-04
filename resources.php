@@ -5,6 +5,7 @@
 	<title> Los Graduados - Events </title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 	<meta name ="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -206,27 +207,10 @@
 			
 			</div>
 		</div>
+<hr class="featurette-divider">
+		<?php include("footer.php"); ?>		
 	</body>
-	
-	
 
-	
-	<?php include("footer.php"); ?>
-	
-<script>
-$(function() {
-		var selectedClass = "";
-		$("p").click(function(){
-		selectedClass = $(this).attr("data-rel");
-    $("#portfolio").fadeTo(100, 0.1);
-		$("#portfolio div").not("."+selectedClass).fadeOut();
-    setTimeout(function() {
-      $("."+selectedClass).fadeIn();
-      $("#portfolio").fadeTo(500, 1);
-    }, 500);
-		
-	});
-});
-</script>
+
 </body>
 </html>
