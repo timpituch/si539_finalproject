@@ -67,9 +67,9 @@
 			<div class="row-fluid">
 		        <div class="span4 well">
 		          <h2>Officers & Members</h2>
-		          <p> Our officers & Members range from biomedical engineering undergradute majors to english and psychology graduate students. 
+		          <p> Our officers & members include graduate students ranging from biomedical engineering master degree candidates to english and psychology PhDs. 
 				  Use the membership registration form to apply to be an officer for next year, in addition to becoming a member of our student organization.
-				  Officers are elected on an academic yearly basis. 
+				  Officers are elected annually for each academic year. 
 				  </p>
 				  <p><a class="btn btn-success" href="register.php"> Membership Registration &raquo;</a></p>
 		        </div> 
