@@ -119,4 +119,14 @@ h1, h2 {
   #home-photo{
     display: none;
   }
+  #welcome-big{
+    display: none;
+  }
+  #welcome-sm{
+    display: visible;
+  }
 }
+@media only screen and (min-width: 1000px) {
+  #welcome-sm{
+    display: none;
+  }
