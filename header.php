@@ -22,7 +22,7 @@
 			}
 				?>><a href="about.php"> About </a></li>
 			<li <?php 
-				if (basename($_SERVER["REQUEST_URI"]) == "events.php")
+				if (basename($_SERVER["REQUEST_URI"]) == "resources.php")
 					{echo "class = \"active\"";
 			}
 				?>><a href="resources.php"> Resources </a></li>

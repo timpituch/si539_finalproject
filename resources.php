@@ -18,6 +18,8 @@
 <a class="btn btn-success" href="#events"> Events </a>
 <a class="btn btn-success" href="#admin"> Administrative & Academic Departments </a>
 </div>
+
+<hr class="featurette-divider">
 	
 			<div class = "container link-square-container">
 
