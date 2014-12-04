@@ -17,10 +17,12 @@
 		</div>	
 	
 <div class="container" style="text-align:center">
-<a class="btn btn-success" href="#grad"> Graduate Student Organizations </a>
-<a class="btn btn-success" href="#undergrad"> Undergraduate Student Organizations </a>
-<a class="btn btn-success" href="#events"> Events </a>
-<a class="btn btn-success" href="#admin"> Administrative &amp; Academic Departments </a>
+	<div class="row">
+		<a class="btn btn-resources col-sm-6 col-md-3 col-xs-12" href="#grad"> Graduate Student Organizations </a>
+		<a class="btn btn-resources col-sm-6 col-md-3 col-xs-12" href="#undergrad"> Undergraduate Student Organizations </a>
+		<a class="btn btn-resources col-sm-6 col-md-3 col-xs-12" href="#events"> Events </a>
+		<a class="btn btn-resources col-sm-6 col-md-3 col-xs-12" href="#admin"> Administrative &amp; Academic Departments </a>
+	</div>
 </div>
 
 <hr class="featurette-divider">
@@ -57,17 +59,9 @@
 					</p>
 				</div>
 			
-			</div>
+<!-- 			</div>
 
-			<div class = "row">	
-				
-				<div class = "link-square col-lg-4 col-md-6">
-					<div class = "link-square-title">
-					 	<a href="https://maizepages.umich.edu/organization/LSWC">Latin@ Social Work Coalition (LSWC)</a>
-					</div>
-					<p> The mission of LSWC is to engage in activism and education around issues of importance to the Latina/o community. 
-					</p>
-				</div>
+			<div class = "row">	 -->
 
 				<div class = "link-square col-lg-4 col-md-6">
 					<div class = "link-square-title">
@@ -85,9 +79,9 @@
 					</p>
 				</div>
 		
-			</div>
+<!-- 			</div>
 	
-			<div class = "row">
+			<div class = "row"> -->
 				<div class = "link-square col-lg-4 col-md-6">
 					<div class = "link-square-title">
 						<a href="https://maizepages.umich.edu/organization/lanama">Latin American Native American Medical Association (LANAMA)</a>
@@ -95,6 +89,15 @@
 					<p> We recognize the pressing need to address the alarming health disparities of the Latino and Native American communities, and are therefore committed to increasing awareness and promoting service in these communities among all students at the UMMS.
 					</p>
 				</div>
+
+				<div class = "link-square col-lg-4 col-md-6">
+					<div class = "link-square-title">
+					 	<a href="https://maizepages.umich.edu/organization/LSWC">Latin@ Social Work Coalition (LSWC)</a>
+					</div>
+					<p> The mission of LSWC is to engage in activism and education around issues of importance to the Latina/o community. 
+					</p>
+				</div>
+
 			</div>
 
 			<div class="link-square-header row" id="undergrad">

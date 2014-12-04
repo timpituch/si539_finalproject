@@ -11,7 +11,6 @@
 	<?php $fname = basename(__FILE__); ?>
 	<?php include("header.php"); ?> 
 
-
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-6">

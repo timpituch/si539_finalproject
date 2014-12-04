@@ -15,22 +15,26 @@ body {
   color: white;
   background-color: #006BB2;
 }
+
+/*buttons*/
 .btn {
   background-color: #006BB2;
+  color: white;
   border: black;
 }
-.btn:hover,
-.bt:focus {
-  color:#006BB2;
-  background-color: yellow;
+
+.btn-resources{
+    display: inline-block;
+    border: 2px solid white;
 }
-.footer .container p {
-  margin: auto 0px;
+.btn-resources:hover,
+.btn-resources:focus {
+  color:#006BB2;
+  background-color: gray;
 }
 
-.jumbotron {
-  background: url("http://tpituch.si.umich.edu/public_html/si539_finalproject/jumbotron_image.jpg");
-  height: 300px;
+.footer .container p {
+  margin: auto 0px;
 }
 
 h1, h2 {
