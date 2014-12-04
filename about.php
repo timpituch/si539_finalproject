@@ -43,15 +43,16 @@
 	<?php $fname = basename(__FILE__); ?> 
 	<?php include("header.php"); ?>
 
-<div class="page-header" style="text-align:center">
+		<div class="page-header" style="text-align:center">
 			<h1> About The Organization </h1>
+			<p></p>
 		</div>
 	<!-- Section #1 -->
 
 	<section id="intro" data-speed="6" data-type="background">
 		<div class="container">
 				<div class="span4 well">
-				<h1>About Us</h1>
+				<h1>Who are we/Quien somos/Quem somos?</h1>
 		        <p> Los Graduados is a new pan-Latino cultural group for graduate students at the University of Michigan.  
 				The organization provides the opportunity for graduate students to connect with their peers in other graduate programs over food, drinks, conversation and action.  
 				Board members and special guests facilitate discussion on topics important to the Latino community and encourage personal and professional development through peer to peer education.
@@ -66,8 +67,8 @@
 		<div class="container">
 			<div class="row-fluid">
 		        <div class="span4 well">
-		          <h2>Officers & Members</h2>
-		          <p> Our officers & Members range from biomedical engineering undergradute majors to english and psychology graduate students. 
+		          <h2>Officers &amp; Members</h2>
+		          <p> Our officers &amp; Members range from biomedical engineering undergradute majors to english and psychology graduate students. 
 				  Use the membership registration form to apply to be an officer for next year, in addition to becoming a member of our student organization.
 				  Officers are elected on an academic yearly basis. 
 				  </p>

@@ -11,9 +11,6 @@
 	<?php $fname = basename(__FILE__); ?>
 	<?php include("header.php"); ?> 
 
-	<div class="page-header" style="text-align:center">
-			<h1> Contact Us </h1>
-		</div>
 
 	<div class="container">
 		<div class="row">

@@ -15,7 +15,15 @@ body {
   color: white;
   background-color: #006BB2;
 }
-
+.btn {
+  background-color: #006BB2;
+  border: black;
+}
+.btn:hover,
+.bt:focus {
+  color:#006BB2;
+  background-color: yellow;
+}
 .footer .container p {
   margin: auto 0px;
 }

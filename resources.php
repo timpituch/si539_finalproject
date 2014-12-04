@@ -20,7 +20,7 @@
 <a class="btn btn-success" href="#grad"> Graduate Student Organizations </a>
 <a class="btn btn-success" href="#undergrad"> Undergraduate Student Organizations </a>
 <a class="btn btn-success" href="#events"> Events </a>
-<a class="btn btn-success" href="#admin"> Administrative & Academic Departments </a>
+<a class="btn btn-success" href="#admin"> Administrative &amp; Academic Departments </a>
 </div>
 
 <hr class="featurette-divider">
