@@ -28,7 +28,7 @@
     padding: 200px 0;
 }
 #about { 
-    background: url(img/about.png) 50% 0 fixed; 
+    background: url(img/wood.jpg) 50% 0 fixed; 
     height: auto;
     margin: 0 auto; 
     width: 100%; 
