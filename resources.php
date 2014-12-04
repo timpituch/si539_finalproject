@@ -12,6 +12,10 @@
 	<?php $fname = basename(__FILE__); ?> 
 	<?php include("header.php"); ?>
 
+<div class="page-header" style="text-align:center">
+			<h1> Resources </h1>
+		</div>	
+	
 <div class="container" style="text-align:center">
 <a class="btn btn-success" href="#grad"> Graduate Student Organizations </a>
 <a class="btn btn-success" href="#undergrad"> Undergraduate Student Organizations </a>

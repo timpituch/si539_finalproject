@@ -43,7 +43,9 @@
 	<?php $fname = basename(__FILE__); ?> 
 	<?php include("header.php"); ?>
 
-	
+<div class="page-header" style="text-align:center">
+			<h1> About The Organization </h1>
+		</div>
 	<!-- Section #1 -->
 
 	<section id="intro" data-speed="6" data-type="background">

@@ -12,7 +12,9 @@
 		<?php $fname = basename(__FILE__); ?> 
 		<?php include("header.php") ?>
 		<div class="container">
-		<h1> Become a member </h1>
+		<div class="page-header" style="text-align:center">
+			<h1> Become a Member </h1>
+		</div>
 		<form name="application" action="process.php" autocomplete="off" method="post" onsubmit="return validateAll()">
 
 <!-- Bootstrap Accordion -->
