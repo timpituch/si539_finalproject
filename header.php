@@ -37,6 +37,14 @@
 			} ?>><a href="contact.php"> Contact </a></li>
 		  </ul>
 		 </div>	
-</div>		
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.dropdown-toggle').dropdown();
+    });
+</script>
+
 </nav> 
 </header>
