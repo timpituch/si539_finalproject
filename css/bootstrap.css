@@ -6202,3 +6202,5 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+span.bruh{display:none;} /* for accessibility of menu button for smaller devices in header.php */
