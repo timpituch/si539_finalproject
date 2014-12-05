@@ -27,9 +27,11 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="page-header" style="text-align:center">
-				<h1 id="welcome-big"> Welcome/Bienvenidos/Bem-vindos! </h1>
+				<h1 id="welcome-big"> Welcome, Bienvenidos &amp; Bem-vindos! </h1>
+				<h1 id="welcome-sm"> Welcome, <br>Bienvenidos &amp;<br>Bem-vindos! </h1>
 			</div>
-			
+		</div>
+	</div>
 			<div class="row">
 				<div class="col-md-6" id="home-photo">
 					<img src="img/latinos.jpg" alt="latinos" class="img-circle" style="width:100%;">
