@@ -64,7 +64,7 @@
 				   <p><a class="btn btn-success" href="contact.php"> Contact Form &raquo;</a></p>
 				  <h2> Our Location </h2>
 				  <p> Find us at North Quad on the campus of the University of Michigan. </p>
-				  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2951.9009819632183!2d-83.740325!3d42.28063699999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae406bf1f7cb%3A0xefd29040373a695a!2sNorth+Quadrangle+Residential+and+Academic+Complex!5e0!3m2!1sen!2sus!4v1417633993792" width="600" height="450" frameborder="0" style="border:0"></iframe>
+				  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2951.9009819632183!2d-83.740325!3d42.28063699999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae406bf1f7cb%3A0xefd29040373a695a!2sNorth+Quadrangle+Residential+and+Academic+Complex!5e0!3m2!1sen!2sus!4v1417633993792" width="100%" height="450" frameborder="0" style="border:0"></iframe>
 				</div> 
 	    	</div>
 	    </div>
