@@ -5,7 +5,8 @@
 	<title> Los Graduados - Events </title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js"> </script>
 	<meta name ="viewport" content="width=device-width, initial-scale=1">
 
 </head>

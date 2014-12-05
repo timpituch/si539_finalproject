@@ -5,6 +5,9 @@
 		<link href="css/bootstrap-form-helpers.min.css" rel="stylesheet" media="screen">
 		<link href="css/style.css" rel="stylesheet" type="text/css">
 		<link href="css/timsformstyle.css" rel="stylesheet" type="text/css">
+		<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+		<script src="js/bootstrap.min.js"> </script>
+		<style> span.bruh{display:none;}  </style>
 		<title> Los Graduados - Member Registration Form</title>
 	</head>
 
